@@ -15,7 +15,7 @@
 #
 
 # Inherit from oneplus sdm845-common
--include device/oneplus/sdm845-common/BoardConfigCommon.mk
+include device/oneplus/sdm845-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/oneplus/fajita
 
@@ -35,4 +35,4 @@ BOARD_AVB_ALGORITHM := SHA512_RSA4096
 BOARD_AVB_BOOT_ALGORITHM := $(BOARD_AVB_ALGORITHM)
 
 # inherit from the proprietary version
--include vendor/oneplus/fajita/BoardConfigVendor.mk
+include vendor/oneplus/fajita/BoardConfigVendor.mk
