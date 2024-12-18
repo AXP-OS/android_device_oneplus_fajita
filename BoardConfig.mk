@@ -30,3 +30,6 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 # inherit from the proprietary version
 include vendor/oneplus/fajita/BoardConfigVendor.mk
+WITH_DEXPREOPT := true
+WITH_DEXPREOPT_DEBUG_INFO := false
+WITH_DEXPREOPT_BOOT_IMG_AND_SYSTEM_SERVER_ONLY := false
